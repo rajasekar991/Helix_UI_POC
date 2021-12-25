@@ -1,13 +1,10 @@
 package stepDefinitions;
 
 import com.helix.team.factory.DriverFactory;
-import com.helix.team.pages.HelixLoginPage;
-import com.helix.team.pages.HelixMeetingListPage;
 import com.helix.team.pages.HelixRequestMeetingPage;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
-public class MeetingListStepDefinition {
+public class RequestMeetingStepDefinition {
 
 
     private HelixRequestMeetingPage helixRequestMeetingPage = new HelixRequestMeetingPage(DriverFactory.getDriver());
